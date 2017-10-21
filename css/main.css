@@ -394,6 +394,7 @@ Screen - Game
 
 #quit {
 	position: absolute;
+	z-index: 99;
 	top: 20px;
 	left: 50%;
 	margin-left: -155px;
@@ -401,5 +402,5 @@ Screen - Game
 	height: 29px;
 	background-image: url('../assets/quit.png');
 	background-repeat: no-repeat;
-	display: block;
+	display: none;
 }
